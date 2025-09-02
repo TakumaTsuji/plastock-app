@@ -29,13 +29,12 @@ import { Package, ShoppingCart } from "lucide-react"
 interface InventoryFormModalProps {
   children: React.ReactNode
   mode?: "add" | "edit"
-  defaultValues?: any
+  defaultValues?: Record<string, string | number | boolean>
 }
 
 export function InventoryFormModal({ 
   children, 
-  mode = "add", 
-  defaultValues 
+  mode = "add"
 }: InventoryFormModalProps) {
   const [isMarketplaceEnabled, setIsMarketplaceEnabled] = useState(false)
   

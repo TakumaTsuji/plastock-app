@@ -28,9 +28,6 @@ import {
   Bell, 
   Shield, 
   Key,
-  Mail,
-  Phone,
-  MapPin,
   Plus,
   Edit,
   Trash2

@@ -17,7 +17,6 @@ import {
 } from "@/components/ui/breadcrumb"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts'
 import { Plus, Search, AlertTriangle, Package, TrendingUp, Users } from "lucide-react"
 import { InventoryListWidget } from "@/components/inventory-list-widget"

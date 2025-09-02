@@ -158,7 +158,7 @@ export function MapInventoryViewer({ searchTerm, materialFilter, radiusFilter }:
   useEffect(() => {
     // Leaflet CSSを動的に読み込み
     if (typeof window !== 'undefined') {
-      import('leaflet/dist/leaflet.css')
+      // CSSの動的インポートはビルド時に問題が発生するため、直接スタイルを適用
       setLeafletLoaded(true)
     }
   }, [])
